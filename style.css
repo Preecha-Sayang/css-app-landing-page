@@ -1,1 +1,108 @@
 /* Start coding here */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 229, 245);
+  font-family: "roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  margin: 20px;
+  border-radius: 9999px;
+  height: 60px;
+}
+
+.menu-bar  {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 40px;
+    font-size: 1rem;
+}
+
+.logo-nav {
+  color: black;
+  padding-left: 40px;
+}
+
+.menu-select:hover {
+    color: blueviolet;
+    text-decoration: underline blueviolet
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.main-header-line1 {
+  font-size: 1rem;
+  color: blueviolet;
+  background-color: rgb(239, 195, 239);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  border-radius: 9999px;
+  line-height: 1;
+}
+
+.main-header-line2 {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.main-header-line3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+
+.head-1 {
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 800;
+    color: #1a1a2e;
+}
+
+.highlight {
+      color: #7b61ff
+}
+
+.head-2 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+
+
+#start-free-trial {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#emo {
+    color: blueviolet;
+    font-size: 30px;
+}
