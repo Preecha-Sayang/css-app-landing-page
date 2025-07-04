@@ -1,3 +1,59 @@
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background-color: #f9f9fb;
+  font-family: 'Roboto', sans-serif;
+}
+
+.feature-card {
+  background-color: #d8e4f7;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 300px;
+  text-align: left;
+}
+
+.feature-card:nth-child(2) {
+  background-color: #d9dffd;
+}
+
+.feature-card:nth-child(3) {
+  background-color: #e8ddf6;
+}
+
+.icon-wrapper {
+  background-color: #f0f4ff;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.feature-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1f1f1f;
+}
+
+.feature-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
 /* Start coding here */
 body {
   margin: 0;
@@ -106,3 +162,4 @@ body {
     color: blueviolet;
     font-size: 30px;
 }
+
